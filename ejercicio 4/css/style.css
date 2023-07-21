@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 1000px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+div{
+    display: flex;
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+    background-color: gray;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    box-shadow: 0 -10px 10px 0 black;
+}
